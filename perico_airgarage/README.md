@@ -1,13 +1,13 @@
-# ?? Perico Air Garage
+Perico Air Garage
 
 Store and retrieve planes at the Cayo Perico hangar with SQL persistence.
 
-## Installation
+ Installation
 1. Drop `perico_airgarage` into your `resources` folder.
 2. Add `ensure perico_airgarage` to `server.cfg`.
 3. Create the table in your database:
 
-```sql
+sql
 CREATE TABLE IF NOT EXISTS perico_planes (
   id INT UNSIGNED NOT NULL AUTO_INCREMENT,
   citizenid VARCHAR(64) NOT NULL,
